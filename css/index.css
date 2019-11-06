@@ -135,10 +135,10 @@ body {
   height: 100%;
 }
 .header {
-  background-color: bisque;
-  width: 50%;
-  margin-top: 20%;
-  margin: 10%;
+  background-color: lightgrey;
+  width: 100%;
+  margin-top: 100%;
+  margin: 20%;
 }
 nav {
   margin-top: 10px;
@@ -149,4 +149,8 @@ nav {
 .paragraphs {
   display: flex;
   flex-direction: column;
+}
+h1 {
+  font-family: 'Liu Jian Mao Cao';
+  font-size: 50px;
 }
