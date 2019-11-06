@@ -136,4 +136,10 @@ body {
 }
 .header {
   background-color: bisque;
+  width: 50%;
+  margin-top: 10%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
 }
