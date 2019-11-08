@@ -162,7 +162,7 @@ nav {
 }
 h1 {
   font-family: 'Liu Jian Mao Cao', cursive;
-  font-size: 50px;
+  font-size: 1.9rem;
 }
 .newspaper {
   -webkit-columns: 100px 3;
@@ -170,17 +170,72 @@ h1 {
   -moz-columns: 100px 3;
   /* Firefox */
   columns: 100px 3;
-  font-family: 'Liu Jian Mao Cao', cursive;
-  font-size: 40px;
+  font-size: 1.5rem;
 }
 .middle {
-  display: -webkit-flex;
-  /* Safari /
--webkit-justify-content: space-around; / Safari 6.1+ */
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  width: 90%;
 }
 .title {
   display: flex;
   justify-content: center;
+}
+.links {
+  display: flex;
+  align-items: space-evenly;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 500px) {
+  .header {
+    background-color: white;
+    width: 90%;
+    margin-top: 100%;
+    margin: 5%;
+    border: 10px dotted black;
+  }
+  .nav-parent {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  nav {
+    margin-top: 10px;
+    margin: 20px;
+  }
+  .paragraphs {
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 1.9rem;
+  }
+  .newspaper {
+    -webkit-columns: 100px 3;
+    /* Chrome, Safari, Opera */
+    -moz-columns: 100px 3;
+    /* Firefox */
+    columns: 100px 3;
+    font-size: 1.5rem;
+  }
+  .middle {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+  .title {
+    display: flex;
+    justify-content: center;
+  }
+  .links {
+    display: flex;
+    align-items: space-evenly;
+  }
+  .contact {
+    display: flex;
+    justify-content: center;
+  }
 }
